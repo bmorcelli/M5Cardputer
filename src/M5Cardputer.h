@@ -14,8 +14,8 @@ class M5_CARDPUTER {
     void begin(bool enableKeyboard = true);
     void begin(m5::M5Unified::config_t cfg, bool enableKeyboard = true);
 
-    M5GFX &Display         = M5.Display;
-    M5GFX &Lcd             = Display;
+    //M5GFX &Display         = M5.Display;
+    //M5GFX &Lcd             = Display;
     Power_Class &Power     = M5.Power;
     Speaker_Class &Speaker = M5.Speaker;
     Mic_Class &Mic         = M5.Mic;
